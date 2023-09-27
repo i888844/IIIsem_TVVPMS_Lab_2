@@ -229,7 +229,7 @@ int main()
             for (i = 0; i < a.get_sides() + b.get_sides() - 1; i++)
             {
                 results[i] = 0;
-                theoretical_probabilities[0] = 0;
+                theoretical_probabilities[i] = 0;
             }
             cout << "Введите количество бросков: ";
             cin >> roll_amount;
